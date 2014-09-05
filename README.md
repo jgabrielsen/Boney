@@ -3,9 +3,11 @@ Boney
 
 Themes based on the Skeleton boilerplate for Pico CMS.
 
-It is essentially the default Pico theme with Skeleton grafted on and the redudant CSS and markup pared away. It's probably a bit sloppy, but it lets me skip a chunk of work when building a responsive website on top of PicoCMS.
+It is essentially the default Pico theme with Skeleton grafted on and the redudant CSS and markup pared away. Skeleton styles were generally kept instead of Pico ones, but then if you're using a minimal boilerplate like Skeleton, you're probably going to change the default styles anyway.
 
-The 1280px version extends the Skeleton framework using the column width calculations found in this [tutorial](http://webdesign.tutsplus.com/tutorials/building-a-responsive-layout-with-skeleton-widescreen--webdesign-7473).
+It's probably a bit sloppy, but it lets me skip a chunk of work when building a responsive website on top of PicoCMS. Thought it might be useful to others as well.
+
+The 1280px version extends Skeleton using the column-width calculations found in this [tutorial](http://webdesign.tutsplus.com/tutorials/building-a-responsive-layout-with-skeleton-widescreen--webdesign-7473).
 
 ### Installation
 
