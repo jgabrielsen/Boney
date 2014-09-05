@@ -1,14 +1,21 @@
-Skeleton Template for PicoCMS
+Boney
 =============================
 
-A mash up of [PicoCMS](http://picocms.org)'s default template with the [Skeleton](http://getskeleton.com) responsive framework.
+Themes based on the Skeleton boilerplate for Pico CMS.
 
-I've done my best to clear out any redundant CSS and markup. It's probably a bit sloppy, but it lets me skip a chunk of work when building a responsive website on top of PicoCMS.
+It is essentially the default Pico theme with Skeleton grafted on and the redudant CSS and markup pared away. It's probably a bit sloppy, but it lets me skip a chunk of work when building a responsive website on top of PicoCMS.
 
-The 1280px version is based on the column width calculations found in this [tutorial](http://webdesign.tutsplus.com/tutorials/building-a-responsive-layout-with-skeleton-widescreen--webdesign-7473).
+The 1280px version extends the Skeleton framework using the column width calculations found in this [tutorial](http://webdesign.tutsplus.com/tutorials/building-a-responsive-layout-with-skeleton-widescreen--webdesign-7473).
 
-These templates might work with any thing else that uses the [Twig template system](http://twig.sensiolabs.org/) (such as [PhileCMS](http://philecms.com/), which is itself a fork of PicoCMS), but I've never tested it and have no idea.
+### Installation
 
-Installation
-====
-To use either of these templates, upload them into the themes folder of your PicoCMS installation, and then change the theme setting in the config.php. Though if you've gotten this far, you probably know more about this shit than I do.
+1. Clone this repository to a new folder. Move either the "boney" or "boney1280" folder to the Pico themes directory.
+2. Open `config.php`, from the root Pico directory, and rename the theme: `$config['theme'] = 'boney';` or `$config['theme'] = 'boney1280';` (depending on which one you want to use).
+
+### About Skeleton
+
+[Skeleton](http://www.getskeleton.com/) is minimalist responsive CSS boilerplate.
+
+### About Pico
+
+[Pico](http://picocms.org/) is a stupidly simple & blazing fast, flat file CMS.
